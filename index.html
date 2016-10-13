@@ -16,29 +16,29 @@
 			<img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png" class="pic">
 		</div>
 	<div class="container">
-			<form class="sign-up-form" action="/some-server-endpoint" method="post">
+			<form class="sign-up-form" action="/signup/" method="post">
 			<h1>Sign up</h1>
 			<p>
 				<label for="email" class="label">Email</label>
 			</p>
 				<p>
-				<input type="text" name="email" id="email" placeholder="foo@bar.com">
+				<input type="text" name="email" id="email" placeholder="foo@bar.com" required>
 				</p>
 				<p>
 				<label for="password" class="label">Password</label>
 				</p>
 				<p>
-				<input type="text" name="password" id="password" placeholder="1234passw0rd">
+				<input type="text" name="password" id="password" placeholder="1234passw0rd" required>
 				</p>
 				<p>
 				<button type="sign-up" class="button">Sign up</button>
 				</p>	
 				<p>
-				<a href="https://support.google.com/accounts/troubleshooter/2402620?p=ar_other_problems&rd=1">Forgot password?</a>
+				<a href="/forgot-password/new">Forgot password?</a>
 				</p>
 			</form>
 			</div>
-			<div class="log-in">Already have an account? <a href="https://fonts.google.com/">Log in</a></div>
+			<div class="log-in">Already have an account? <a href="/login">Log in</a></div>
 	</main>
 
 </body>

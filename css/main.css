@@ -47,6 +47,8 @@ main {
  .log-in {
 	text-align: center;
 	margin-top: 10px;
+	color: white;
+	font-weight: bold;
 }
 
 .text {
