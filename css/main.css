@@ -23,6 +23,7 @@ main {
     background-color: #ffffff;
     margin: 0 auto;
     text-align: center;
+    border-radius: 3px;
 }
 
 .sign-up-form {
@@ -30,6 +31,7 @@ main {
 	padding-left: 40px;
 	padding-right: 40px;
 	text-align: center;
+	color: #565656;
 }
 
 .label {
@@ -37,11 +39,21 @@ main {
 }
 
 .button {
- 	background-color: #68c373;
+	color: white;
+	background-color: #68c373;
  	width: 325px;
 	height: 55px;
 	border: none;
-	padding: 15px;
+	font-size: 25px;
+	border-radius: 3px;
+ }
+
+ .button:hover {
+ 	background-color: #0CB863;
+    -webkit-transition: background 0.1s;
+    -moz-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
  }
 
  .log-in {
@@ -56,12 +68,14 @@ main {
 #email {
 width: 320px;
 height: 55px;
-border: 1px solid grey;	
+border: 2px solid #e7e7e7;	
+border-radius: 3px;
 }
 
 #password {
 	width: 320px;
 	height: 55px;
-	border: 1px solid grey;
+	border: 2px solid #e7e7e7;
+	border-radius: 3px;
 }
 
